@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Stack Calculator</string>
+    <string name="operation_add" translatable="false">+</string>
+    <string name="operation_subtract" translatable="false">-</string>
+    <string name="operation_multiply" translatable="false">*</string>
+    <string name="operation_divide" translatable="false">/</string>
+    <string name="operation_power" translatable="false">xʸ</string>
+    <string name="operation_root" translatable="false">ʸ√x</string>
+    <string name="operation_log" translatable="false">logᵧ(x)</string>
+    <string name="operation_sin" translatable="false">sin(x)</string>
+    <string name="operation_cos" translatable="false">cos(x)</string>
+    <string name="operation_tan">tan(x)</string>
+    <string name="operation_cot">cot(x)</string>
+    <string name="enter_number">Enter a number</string>
+    <string name="invalid_number_format">Invalid number format</string>
+    <string name="query_clear_stack">Clear the stack?</string>
+    <string name="query_sure">Are you sure?</string>
+</resources>

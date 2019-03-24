@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="92"
+        android:stackFromBottom="true" />
+
+    <ScrollView
+        android:layout_width="82dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_input"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dialpad_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_delete"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_clear_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_swap"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_swap_vert_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_clear"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_delete_forever_black_24dp" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_add"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_subtract"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_subtract"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_multiply"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_multiply"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_divide"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_divide"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_power"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_power"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_root"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_root"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_log"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_log"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_sin"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_sin"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_cos"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_cos"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_tg"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_tan"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_ctg"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/operation_cot"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

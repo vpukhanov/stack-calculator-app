@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Стековый калькулятор</string>
+    <string name="operation_tan">tg(x)</string>
+    <string name="operation_cot">ctg(x)</string>
+    <string name="enter_number">Введите число</string>
+    <string name="invalid_number_format">Некорректный формат числа</string>
+    <string name="query_clear_stack">Очистить стек?</string>
+    <string name="query_sure">Вы уверены?</string>
+</resources>
